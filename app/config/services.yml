@@ -1,0 +1,5 @@
+services:
+    service_name:
+        class: AppBundle\Subscriber\RestLoggerSubscriber
+        tags: [{name: 'kernel.event_subscriber'}]
+
